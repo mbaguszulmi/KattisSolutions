@@ -12,9 +12,6 @@ def main():
             if j+1 != len(seq) and seq[j] == 'C' and seq[j+1] == 'D':
                 win = False
                 break
-            # elif j+1 != len(seq) and seq[j] == 'C' and seq[j+1] != 'D':
-            #     won+=1
-            #     break
         if win:
             won+=1
     del i
