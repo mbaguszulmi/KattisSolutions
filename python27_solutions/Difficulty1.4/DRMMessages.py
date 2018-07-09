@@ -3,7 +3,7 @@
 # http://www.mbaguszulmi.com
 
 def rotate(string):
-    numIdx = 0;
+    numIdx = 0
     for i in string:
         numIdx+=abc.find(i)
 

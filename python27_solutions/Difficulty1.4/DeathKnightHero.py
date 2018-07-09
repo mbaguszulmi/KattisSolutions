@@ -17,6 +17,7 @@ def main():
             #     break
         if win:
             won+=1
+    del i
     
     print won
 
